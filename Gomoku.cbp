@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="pbrain-gomoku" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/pbrain-gomoku9" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-std=c++0x" />
+					<Add option="-g" />
+					<Add directory="include" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/pbrain-gomoku_2high" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add option="-std=c++0x" />
+					<Add directory="include" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="Think.txt" />
+		<Unit filename="include/AIForce.h" />
+		<Unit filename="include/BoardHash.h" />
+		<Unit filename="include/Game.h" />
+		<Unit filename="include/Statistic.h" />
+		<Unit filename="include/config.h">
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="include/exString.h" />
+		<Unit filename="include/vsplatform.h" />
+		<Unit filename="main.cpp" />
+		<Unit filename="src/AIForce.cpp" />
+		<Unit filename="src/AIGenerateTable.cpp" />
+		<Unit filename="src/BoardHash.cpp" />
+		<Unit filename="src/Debug.cpp" />
+		<Unit filename="src/FMove.cpp" />
+		<Unit filename="src/Game.cpp" />
+		<Unit filename="src/exString.cpp" />
+		<Unit filename="src/vsplatform.cpp" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

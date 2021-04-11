@@ -1,0 +1,78 @@
+# depslib dependency file v1.0
+1471076016 source:f:\codeblockprj\gomoku\main.cpp
+	<iostream>
+	"Game.h"
+	"AIForce.h"
+	<vector>
+	"vsplatform.h"
+	"exString.h"
+
+1471526654 f:\codeblockprj\gomoku\include\aiforce.h
+	<stdlib.h>
+	<iostream>
+	<time.h>
+	<vector>
+	<string.h>
+	<algorithm>
+	<fstream>
+	"BoardHash.h"
+	"config.h"
+	"Statistic.h"
+
+1473780868 source:f:\codeblockprj\gomoku\src\aiforce.cpp
+	"AIForce.h"
+
+1471076341 f:\codeblockprj\gomoku\include\game.h
+	"AIForce.h"
+	<iostream>
+	<string>
+	<bitset>
+	<vector>
+
+1471526473 source:f:\codeblockprj\gomoku\src\game.cpp
+	"Game.h"
+	"exString.h"
+
+1473774567 source:f:\codeblockprj\gomoku\src\fmove.cpp
+	"AIForce.h"
+
+1470079271 source:f:\codeblockprj\gomoku\src\aigeneratetable.cpp
+	"AIForce.h"
+	<string.h>
+	<fstream>
+	<bitset>
+
+1469590791 source:f:\codeblockprj\gomoku\src\debug.cpp
+	"AIForce.h"
+
+1470965856 f:\codeblockprj\gomoku\include\boardhash.h
+	<iostream>
+	<unordered_map>
+	"config.h"
+
+1469558021 source:f:\codeblockprj\gomoku\src\boardhash.cpp
+	"BoardHash.h"
+	<string.h>
+
+1473781109 f:\codeblockprj\gomoku\include\config.h
+
+1462460122 f:\codeblockprj\gomoku\include\statistic.h
+	<time.h>
+
+1462456223 source:f:\codeblockprj\gomoku\src\statistic.cpp
+	"Statistic.h"
+
+1462874135 f:\codeblockprj\gomoku\include\vsplatform.h
+	<iostream>
+	"AIForce.h"
+
+1470079290 source:f:\codeblockprj\gomoku\src\vsplatform.cpp
+	"vsplatform.h"
+
+1471074301 f:\codeblockprj\gomoku\include\exstring.h
+	<string>
+	<vector>
+
+1471449577 source:f:\codeblockprj\gomoku\src\exstring.cpp
+	"exString.h"
+
